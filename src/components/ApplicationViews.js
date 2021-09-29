@@ -1,7 +1,7 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import { Home } from "./Home"
-import { AnimalCard } from "./animal/AnimalCard"
+import { AnimalList } from "./animal/AnimalList"
 
 export const ApplicationViews = ( {isAdmin, myUser}) => {
     return (
@@ -13,7 +13,7 @@ export const ApplicationViews = ( {isAdmin, myUser}) => {
 
             {/* Render the animal list when http://localhost:3000/animals */}
             <Route path="/animals">
-              <AnimalCard />
+              <AnimalList />
             </Route>
         </>
     )
