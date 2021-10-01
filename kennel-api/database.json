@@ -1,27 +1,77 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Shepherd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 23,
+      "name": "Esme Dog The best",
+      "breed": "Pitbull",
+      "locationId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 24,
+      "name": "Doodles Cat",
+      "breed": "Poodle",
+      "locationId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 25,
+      "name": "Pepper Dog",
+      "breed": "Twist",
+      "locationId": 1,
+      "customerId": 1
+    },
+    {
+      "id": 26,
+      "name": "Koopa",
+      "breed": "Tortoise",
+      "locationId": 1,
+      "customerId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Brenda L",
+      "address": "500 Circle Drive",
+      "email": "b@b.com"
+    },
+    {
+      "id": 2,
+      "name": "Bryan N",
+      "address": "302 Endless Loop",
+      "email": "a@a.com"
+    },
+    {
+      "id": 3,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "h@h.com"
+    },
+    {
+      "email": "f@f.com",
+      "name": "Fred Friday",
+      "address": "7002 Center Ct",
+      "id": 4
+    },
+    {
+      "email": "npa@home.com",
+      "name": "New Person Again",
+      "address": "2 Circle Ct",
+      "id": 5
+    }
+  ],
+  "employees": [],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }

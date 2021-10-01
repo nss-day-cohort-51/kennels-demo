@@ -1,13 +1,17 @@
 import React from "react"
 import "./Animal.css"
+import {Link} from 'react-router-dom'
 // import Kitten from './images/kitten.jpg';
 
-export const AnimalCard = ({animal}) => {
+export const AnimalCard = ({animal, handleDeleteAnimal}) => {
 	return (
-    <section className="animal">
+    <section className="animal card" >
         <h3 className="animal__name">{animal.name}</h3>
         <div className="animal__breed">Breed: {animal.breed}</div>
-
+        <button type="button" onClick={() => handleDeleteAnimal(animal.id)}>Discharge</button>  
+        <Link to={`/animals/${animal.id}`}>
+            <button>Details</button>
+        </Link>
         {/* <img src={require('./images/kitten.jpg').default} alt="imageTest"/> */}
 
         {/* refers to the import above needs to be in the src directory*/}
