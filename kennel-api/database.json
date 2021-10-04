@@ -2,21 +2,21 @@
   "animals": [
     {
       "id": 23,
-      "name": "Esme Dog The best",
-      "breed": "Pitbull",
+      "name": "Esme Dog The best of the best",
+      "breed": "Pitbull Twist",
       "locationId": 1,
       "customerId": 1
     },
     {
       "id": 24,
-      "name": "Doodles Cat",
+      "name": "doodles Cat",
       "breed": "Poodle",
       "locationId": 1,
       "customerId": 1
     },
     {
       "id": 25,
-      "name": "Pepper Dog",
+      "name": "pepper Dog",
       "breed": "Twist",
       "locationId": 1,
       "customerId": 1
@@ -27,12 +27,26 @@
       "breed": "Tortoise",
       "locationId": 1,
       "customerId": 2
+    },
+    {
+      "name": "Lucy Critter",
+      "breed": "Hairy Cat",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 27
+    },
+    {
+      "name": "Gator",
+      "breed": "Fish",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 28
     }
   ],
   "customers": [
     {
       "id": 1,
-      "name": "Brenda L",
+      "name": "Brenda",
       "address": "500 Circle Drive",
       "email": "b@b.com"
     },
@@ -59,6 +73,11 @@
       "name": "New Person Again",
       "address": "2 Circle Ct",
       "id": 5
+    },
+    {
+      "email": "bl@bl.com",
+      "name": "B l",
+      "id": 6
     }
   ],
   "employees": [],
